@@ -1,0 +1,4 @@
+﻿  0527.c
+C:\Users\User\Desktop\KHS\KHS-2\c++.project\c_practice\Project_0527\Project_0527\0527.c(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': 매크로 재정의
+C:\Users\User\Desktop\KHS\KHS-2\c++.project\c_practice\Project_0527\Project_0527\0527.c : message : '_CRT_SECURE_NO_WARNINGS'의 이전 정의를 참조하십시오.
+  Project_0527.vcxproj -> C:\Users\User\Desktop\KHS\KHS-2\c++.project\c_practice\Project_0527\Debug\Project_0527.exe
