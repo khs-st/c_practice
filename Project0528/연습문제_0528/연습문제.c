@@ -33,24 +33,15 @@ int discount_price(double d, int p) {
 }
 */
 /*5번*/
-int is_even(int num1){
-	if(num1%2==0)
-	printf("%d",num1);
-		
-		return 0;
-	
+int is_even(even) {
+	even++;
+	return even;
 }
 
-int is_odd(int num2){
-	if(num2%2==1)
-	printf("%d",num2);
-	
-		return 0;
-	
-
+int is_odd(odd) {
+	odd++;
+	return odd;
 }
-
-
 int main() {
 	/*1번
 	int x, y;
@@ -60,47 +51,58 @@ int main() {
 		scanf("%d", &y);
 		printf("직사각형의 둘레 : %d", get_perimeter(x, y));
 		printf("\n\n");
-		
-/* 2번	
+
+/* 2번
 		double l;
 		printf("한 변의길이? : ");
 		scanf("%lf", &l);
 		printf("정사각형의 면적: %.6lf", get_area_of_square(l));
 		printf("\n\n");
 		*/
-/*3번
-		int x1, y1, x2, y2;
-		printf("직선의 시작점 좌표? ");
-		scanf("%d %d", &x1, &y1);
-		printf("직선의 끝점 좌표? ");
-		scanf("%d %d", &x2, &y2);
-		printf("(%d,%d)~(%d,%d) 직선의 길이: %lf",x1,y1,x2,y2, distance(x1,y1,x2,y2));
-		*/
-/*4번
-	
-	double d;
-	int  p;
+		/*3번
+				int x1, y1, x2, y2;
+				printf("직선의 시작점 좌표? ");
+				scanf("%d %d", &x1, &y1);
+				printf("직선의 끝점 좌표? ");
+				scanf("%d %d", &x2, &y2);
+				printf("(%d,%d)~(%d,%d) 직선의 길이: %lf",x1,y1,x2,y2, distance(x1,y1,x2,y2));
+				*/
+				/*4번
 
-	printf("할인율(%%)? ");
-	scanf("%lf", &d);
-	while (1)
-	{
-		printf("제품의 가격? ");
-		scanf("%d", &p);
-		if (p == 0) break;
-		printf("할인가:%d원 ", discount_price(d,p));
-	}
-*/
-	/*5번*/
-	int a=0, num1 = 0, num2 = 0;
-	while (1) {
-	printf("정수를 빈칸으로 구분해서 입력하세요.(마지막에 0 입력)\n");
+					double d;
+					int  p;
+
+					printf("할인율(%%)? ");
+					scanf("%lf", &d);
+					while (1)
+					{
+						printf("제품의 가격? ");
+						scanf("%d", &p);
+						if (p == 0) break;
+						printf("할인가:%d원 ", discount_price(d,p));
+					}
+				*/
+	//5번//			
+	int num, i=0, j=0,  even = 0, odd =0;
+
 	
-		printf("%d", a);
-		scanf("%d", &a); 
-		if (a == 0) break;
+	printf("정수를 빈칸으로 구분해서 입력하세요.(마지막에 0 입력)\n");
+	while (1) 
+	{
+		scanf("%d", &num);
+		if (num == 0) break;
+		else if (num % 2 == 0)
+
+			even = is_even(even);
+		else
+			odd = is_odd(odd);
 	}
-		printf("입력받은 정수 중 짝수는 %d개, 홀수는 %d개입니다.", is_even,is_odd);
+			printf("입력받은 정수 중 짝수는 %d개, 홀수는 %d개입니다.", even, odd);
+		
+	
+	
+	
+		
 	
 	
 	

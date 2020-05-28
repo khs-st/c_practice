@@ -1,4 +1,2 @@
 ﻿  연습문제.c
-C:\Users\User\Desktop\KHS\KHS-2\c++.project\c_practice\Project0528\연습문제_0528\연습문제.c(103,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int (__cdecl *)(int)'입니다.
-C:\Users\User\Desktop\KHS\KHS-2\c++.project\c_practice\Project0528\연습문제_0528\연습문제.c(103,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'int (__cdecl *)(int)'입니다.
-  연습문제_0528.vcxproj -> C:\Users\User\Desktop\KHS\KHS-2\c++.project\c_practice\Project0528\Debug\연습문제_0528.exe
+  연습문제_0528.vcxproj -> C:\Users\user\Desktop\자바웹기반 HTML\c_practice\Project0528\Debug\연습문제_0528.exe
