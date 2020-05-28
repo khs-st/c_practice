@@ -33,22 +33,20 @@ int discount_price(double d, int p) {
 }
 */
 /*5번*/
-int is_even(int num){
-	int even;
-	if (even = num % 2 == 0) {
-		printf(num);
-
-		return even;
-	}
+int is_even(int num1){
+	if(num1%2==0)
+	printf("%d",num1);
+		
+		return 0;
+	
 }
 
-int is_odd(int num){
-	int odd;
-	if (odd = num % 2 == 1) {
-		printf(num);
-
-		return odd;
-	}
+int is_odd(int num2){
+	if(num2%2==1)
+	printf("%d",num2);
+	
+		return 0;
+	
 
 }
 
@@ -94,15 +92,16 @@ int main() {
 	}
 */
 	/*5번*/
-	int num=0;
-	
-	printf("정수를 빈칸으로 구분해서 입력하세요.(마지막에 0 입력)\n");
+	int a=0, num1 = 0, num2 = 0;
 	while (1) {
-		printf("%d", num, is_even(num), is_odd(num));
-		scanf("%d", &num); 
-		if (num == 0) break;
-		printf("입력받은 정수 중 짝수는 %d개, 홀수는 %d개입니다.\n");
+	printf("정수를 빈칸으로 구분해서 입력하세요.(마지막에 0 입력)\n");
+	
+		printf("%d", a);
+		scanf("%d", &a); 
+		if (a == 0) break;
 	}
+		printf("입력받은 정수 중 짝수는 %d개, 홀수는 %d개입니다.", is_even,is_odd);
+	
 	
 	
 		
