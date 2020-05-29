@@ -1,0 +1,3 @@
+﻿  연습문제0529_2.c
+C:\Users\KB\Desktop\khs\c_practice\Project0529\Project0529\연습문제0529_2.c(143,7): warning C4101: 'file' :참조되지 않은 지역 변수입니다.
+  Project0529.vcxproj -> C:\Users\KB\Desktop\khs\c_practice\Project0529\x64\Debug\Project0529.exe
