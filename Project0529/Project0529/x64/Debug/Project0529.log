@@ -1,6 +1,2 @@
 ﻿  연습문제0529_2.c
-D:\KHS\c_practice\Project0529\Project0529\연습문제0529_2.c(213,8): warning C4477: 'scanf' : 서식 문자열 '%f'에 'float *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
-D:\KHS\c_practice\Project0529\Project0529\연습문제0529_2.c(213,8): message : 서식 문자열에서 '%lf'을(를) 사용하는 것이 좋습니다.
-D:\KHS\c_practice\Project0529\Project0529\연습문제0529_2.c(213,8): warning C4477: 'scanf' : 서식 문자열 '%f'에 'float *' 형식의 인수가 필요하지만 variadic 인수 3의 형식이 'double *'입니다.
-D:\KHS\c_practice\Project0529\Project0529\연습문제0529_2.c(213,8): message : 서식 문자열에서 '%lf'을(를) 사용하는 것이 좋습니다.
-  Project0529.vcxproj -> D:\KHS\c_practice\Project0529\x64\Debug\Project0529.exe
+C:\Users\user\Desktop\자바웹기반 HTML\c_practice\Project0529\Project0529\연습문제0529_2.c(246,1): fatal error C1071: 주석에서 예기치 않은 파일의 끝이 나타났습니다.

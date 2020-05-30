@@ -37,7 +37,7 @@ int discount_price(double d, int p) {
 */
 /*5번
 int is_even(num) {
-	
+
 	if (num % 2 == 0 && num != 0) {
 		return 3;
 	}
@@ -77,23 +77,23 @@ int is_prime(int N) {
 }
 */
 /*8번은 문제에서 표준 C 라이브러리의 rand함수를 이용하라 언급해서 없다.*/
-double calculator(sum) {
-	char op=0; 
-	double sum1=0,sum2=0, left = 0, right = 0;
+/*9번
+double calculator(double left,char op, double right)
+{
+	double result = 0;
 	switch (op)
 	{
 	case '+':
-		printf("%lf\n", left + right); break;
+		result = left + right; break;
 	case '*':
-		printf("%lf\n", left * right); break;
+		result = left * right; break;
 	default:
 		break;
+
 	}
-	return sum;
-	}
-
-
-
+	return result;
+}
+*/
 
 
 
@@ -205,24 +205,19 @@ int main() {
 				printf("\n");
 				printf("합계: %d", sum);
 				*/
-				//9번//
-char op = 0;
-double left = 0, right = 0, sum = 0;
-while (1) {
-	printf("수식 (0 0 0 입력 시 종료)?  ");
-	scanf("%f %c %f", &left, &op, &right);
-	if (printf("0 0 0")) break;
-	if (calculator(sum) == 3) {
-		printf("%lf\n", sum);
+
+				/*9번
+	char op = 0;
+	double result = 0,left = 0, right = 0, sum = 0;
+	while (1)
+	{
+		printf("수식 (0 0 0 입력 시 종료)?  ");
+		scanf("%lf %c %lf", &left, &op, &right);
+		if (op == '0' && left==0 && right==0) break;
+		printf("%lf\n", calculator(left,op,right));
 	}
-
-
-		
-	}
-
-	
-	
-		
+	*/
+//10번//
 
 
 
