@@ -150,7 +150,7 @@ int check_data(int year, int month, int day) {
 }
 */
 
-/*13번
+/*13
 int round_pos(int i,int j) {
 	double n;
 
@@ -186,7 +186,7 @@ float get_quadrant(float x, float y) {
 }
 */
 
-/*15번
+//15번
 int divisors(int measure, int num, int i)
 {
 	int count = 0;
@@ -205,7 +205,7 @@ int divisors(int measure, int num, int i)
 	}
 
 }
-*/
+
 
 /*16번
 int graph(int data, int scale, int num) {
@@ -234,7 +234,7 @@ float electric_charge(int e)
 	{
 		if (i <= 200)
 		{
-			result += 93.3; //e=200kwh 이하로 사용 했을 경우 93.3*200 +기본요금//
+			result += 93.3;	//e=200kwh 이하로 사용 했을 경우 93.3*200 +기본요금//
 		}
 		else if (i <= 400)
 		{
@@ -247,10 +247,10 @@ float electric_charge(int e)
 			basePrice = 7300;
 		}
 	}
-	return result + basePrice;
+	return result + basePrice;  //첫 기본요금 910 을 더해주어야한다.//
 }
-*/
 
+*/
 
 
 
@@ -450,7 +450,7 @@ printf("가로? :");
 }
 				*/
 
-				/*13번
+		/*
 				int main() {
 	int i=0,j=0;
 
@@ -458,7 +458,7 @@ printf("가로? :");
 	return 0;
 
 }
-*/
+				*/
 
 /*14번
 int main() {
@@ -476,16 +476,17 @@ int main() {
 	/*15번
 	int main() {
 	int i = 0, count = 0, measure = 0, num = 0;
+	srand(time(NULL));
 	for (i = 0; i < 3; i++)
 	{
-
+		
 		count = divisors(measure, num,i);
 		printf("=> 총 %d개\n", count);
 	}
 	return 0;
 
 }
-		*/
+*/
 
 		/*16번
 		int main() {
@@ -498,7 +499,7 @@ int main() {
 		}
 		*/
 
-		/*17번
+/*17번
 		int main() {
 		 while (1)
 		{

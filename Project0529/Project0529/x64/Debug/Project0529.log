@@ -1,3 +1,4 @@
 ﻿  연습문제0529_2.c
-C:\Users\user\Desktop\자바웹기반 HTML\c_practice\Project0529\Project0529\연습문제0529_2.c(249,27): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Project0529.vcxproj -> C:\Users\user\Desktop\자바웹기반 HTML\c_practice\Project0529\x64\Debug\Project0529.exe
+D:\KHS\c_practice\Project0529\Project0529\연습문제0529_2.c(479,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\KHS\c_practice\Project0529\Project0529\연습문제0529_2.c(207): warning C4715: 'divisors': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Project0529.vcxproj -> D:\KHS\c_practice\Project0529\x64\Debug\Project0529.exe
