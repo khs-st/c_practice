@@ -1,3 +1,2 @@
 ﻿  연습문제0529_2.c
-C:\Users\user\Desktop\자바웹기반 HTML\c_practice\Project0529\Project0529\연습문제0529_2.c(249,27): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Project0529.vcxproj -> C:\Users\user\Desktop\자바웹기반 HTML\c_practice\Project0529\x64\Debug\Project0529.exe

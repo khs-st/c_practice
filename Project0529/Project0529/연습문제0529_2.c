@@ -49,16 +49,30 @@ int is_odd(num) {
 	}
 }
 */
-/*6번
+
 
 int choose_menu(num) {
-	if (num == 1)
-		printf("파일 열기를 수행합니다.\n");
-	else if (num != 1)
-		printf("");
-	return 1;
+	while (1) {
+		printf("[1. 파일 열기 2.파일 저장 3.인쇄 0.종료] 선택? ");
+		scanf("%d", &num);
+		switch (num)
+		{
+		case 0: printf("종료합니다.\n"); break;
+			return 0;
+		case 1:
+			printf("파일 열기를 수행합니다\n"); break;
+			return 1;
+		case 2:
+			printf("파일 저장을 수행합니다\n"); break;
+			return 2;
+		case 3:
+			printf("인쇄를 수행합니다\n"); break;
+			return 3;
+		}
+	}
 }
-*/
+
+
 /*7번
 int is_prime(int N) {
 	int i = 0, prime = 0, count = 0;
@@ -342,23 +356,15 @@ printf("가로? :");
 }
 						*/
 
-						/*6번
+						
 						int main() {
-						int menu = 0;
-						char file;
-
-						while (1) {
-						printf("[1. 파일 열기 2.파일 저장 3.인쇄 0.종료] 선택? ");
-						scanf("%d", &menu);
-						if (menu == 0)
-							break;
-						if(choose_menu(menu)==1);
-
-						}
+						int menu = 0; int num = 0;
+						
+						menu = choose_menu(num);
 						return 0;
 
 }
-						*/
+					
 
 						/*7번
 						int main() {
