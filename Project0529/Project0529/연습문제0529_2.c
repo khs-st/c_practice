@@ -51,26 +51,21 @@ int is_odd(num) {
 */
 
 
-int choose_menu(num) {
-	while (1) {
+int choose_menu()
+{
+	int menu = 0;
+	if (menu < 4 && menu == 0) {
 		printf("[1. 파일 열기 2.파일 저장 3.인쇄 0.종료] 선택? ");
-		scanf("%d", &num);
-		switch (num)
-		{
-		case 0: printf("종료합니다.\n"); break;
-			return 0;
-		case 1:
-			printf("파일 열기를 수행합니다\n"); break;
-			return 1;
-		case 2:
-			printf("파일 저장을 수행합니다\n"); break;
-			return 2;
-		case 3:
-			printf("인쇄를 수행합니다\n"); break;
-			return 3;
-		}
+		scanf("%d", &menu);
 	}
+	else {
+		printf("[1. 파일 열기 2.파일 저장 3.인쇄 0.종료] 선택? ");
+		scanf("%d", &menu);
+	}
+	return menu;
 }
+
+
 
 
 /*7번
@@ -200,7 +195,7 @@ float get_quadrant(float x, float y) {
 }
 */
 
-//15번
+/*15번
 int divisors(int measure, int num, int i)
 {
 	int count = 0;
@@ -219,6 +214,7 @@ int divisors(int measure, int num, int i)
 	}
 
 }
+*/
 
 
 /*16번
@@ -356,27 +352,38 @@ printf("가로? :");
 }
 						*/
 
-						
-						int main() {
-						int menu = 0; int num = 0;
-						
-						menu = choose_menu(num);
-						return 0;
 
+int main() {
+	int menu = 0;
+	while (1) {
+		menu = choose_menu();
+		switch (menu) {
+		case 1:
+			printf("파일 열기를 수행합니다.\n"); break;
+		case 2:
+			printf("파일을 저장합니다.\n"); break;
+		case 3:
+			printf("파일을 인쇄합니다.\n"); break;
+		case 0:
+			printf("종료합니다.\n"); return 0;
+		}
+	}
+	return 0;
 }
-					
 
-						/*7번
-						int main() {
-						int prime, N, count = 0;
 
-						printf("1~N사이의 소수를 구합니다. N은? ");
-						scanf("%d", &N);
-						printf("\n");
-						count = is_prime(N);
-						printf("\n");
-						printf("소수는 모두 %d개입니다.", count);
-						return 0;
+
+/*7번
+int main() {
+int prime, N, count = 0;
+
+printf("1~N사이의 소수를 구합니다. N은? ");
+scanf("%d", &N);
+printf("\n");
+count = is_prime(N);
+printf("\n");
+printf("소수는 모두 %d개입니다.", count);
+return 0;
 
 }
 						*/
@@ -456,67 +463,67 @@ printf("가로? :");
 }
 				*/
 
-		/*
-				int main() {
-	int i=0,j=0;
+				/*
+						int main() {
+			int i=0,j=0;
 
-	if (round_pos(i, j) == 2)
-	return 0;
-
-}
-				*/
-
-/*14번
-int main() {
-	float x = 0, y = 0;
-	while (1) {
-		printf("점의 좌표 (x, y)? ",x,y);
-		scanf("%f %f", &x, &y);
-			if (get_quadrant(x, y) == 0) break;
-	}
-	return 0;
-
-}
-	*/
-
-	/*15번
-	int main() {
-	int i = 0, count = 0, measure = 0, num = 0;
-	srand(time(NULL));
-	for (i = 0; i < 3; i++)
-	{
-		
-		count = divisors(measure, num,i);
-		printf("=> 총 %d개\n", count);
-	}
-	return 0;
-
-}
-*/
-
-		/*16번
-		int main() {
-		int num=0,data=0,scale=0;
-
-			if(graph(data, scale, num));
-
+			if (round_pos(i, j) == 2)
 			return 0;
 
 		}
-		*/
+						*/
 
-/*17번
-		int main() {
-		 while (1)
-		{
-			int e;
-			printf("월 사용량 (kWh) ? ");
-			scanf("%d", &e);
-			if (e == -1)
-				break;
-			printf("전기 요금 : %0.0lf원\n", electric_charge(e));
-		}
-			return 0;
+						/*14번
+						int main() {
+							float x = 0, y = 0;
+							while (1) {
+								printf("점의 좌표 (x, y)? ",x,y);
+								scanf("%f %f", &x, &y);
+									if (get_quadrant(x, y) == 0) break;
+							}
+							return 0;
 
-		}
-		*/
+						}
+							*/
+
+							/*15번
+							int main() {
+							int i = 0, count = 0, measure = 0, num = 0;
+							srand(time(NULL));
+							for (i = 0; i < 3; i++)
+							{
+
+								count = divisors(measure, num,i);
+								printf("=> 총 %d개\n", count);
+							}
+							return 0;
+
+						}
+						*/
+
+						/*16번
+						int main() {
+						int num=0,data=0,scale=0;
+
+							if(graph(data, scale, num));
+
+							return 0;
+
+						}
+						*/
+
+						/*17번
+								int main() {
+								 while (1)
+								{
+									int e;
+									printf("월 사용량 (kWh) ? ");
+									scanf("%d", &e);
+									if (e == -1)
+										break;
+									printf("전기 요금 : %0.0lf원\n", electric_charge(e));
+								}
+									return 0;
+
+								}
+								*/
