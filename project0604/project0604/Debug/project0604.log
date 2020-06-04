@@ -1,0 +1,3 @@
+﻿  0604.c
+D:\KHS\c_practice\project0604\project0604\0604.c(31,9): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  project0604.vcxproj -> D:\KHS\c_practice\project0604\Debug\project0604.exe
