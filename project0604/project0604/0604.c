@@ -4,7 +4,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 
 
-
+/*
 int solution(int n) {
 
 int arr[3000] = { 0 }; // 약수를 담는 배열
@@ -25,15 +25,10 @@ for (int i = 0; i < count; i++)
 
 return sum;
 }
-
+*/
 int main() {
 
-    int i, n, sum = 0;
-
-    scanf_s("%d", &n);
-
-	sum=solution(n);
-    printf("%d", sum);
+	printf("애가 진짜 ㅋㅋ ");
 
     return 0;
 }
