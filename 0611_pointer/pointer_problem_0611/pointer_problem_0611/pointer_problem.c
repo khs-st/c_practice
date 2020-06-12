@@ -28,25 +28,25 @@
 	}
 	*/
 
-	//3번
+//	3번
 //	int main(){
 //	int i;
 //	int arr[10] = { 1,2,3,13,5,6,14,8,9,12 };
 //
 //
-//	int* p1 = &arr[0];
+//	int* p = &arr[0];
 //
 //	printf("배열: ");
 //
-//	for (i = 0; i < 10; i++, p1++) {
+//	for (i = 0; i < 10; i++, p++) {
 //
-//		printf("%d ", *p1);
+//		printf("%d ", *p);
 //
 //	}
 //	printf("\n역순: ");
-//	int* p2 = &arr[9];
-//	for (i = 0; i < 10; i++, p2--) {
-//		printf("%d ", *p2);
+//	p = &arr[9];
+//	for (i = 0; i < 10; i++, p--) {
+//		printf("%d ", *p);
 //	}
 //
 //	return 0;
