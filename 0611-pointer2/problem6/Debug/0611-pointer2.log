@@ -1,6 +1,0 @@
-﻿  pointer_problem2.c
-C:\Users\user\Desktop\자바웹기반 HTML\c_practice\0611-pointer2\0611-pointer2\pointer_problem2.c(52,26): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\user\Desktop\자바웹기반 HTML\c_practice\0611-pointer2\0611-pointer2\pointer_problem2.c(52,26): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
-C:\Users\user\Desktop\자바웹기반 HTML\c_practice\0611-pointer2\0611-pointer2\pointer_problem2.c(54,24): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
-C:\Users\user\Desktop\자바웹기반 HTML\c_practice\0611-pointer2\0611-pointer2\pointer_problem2.c(54,24): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
-  0611-pointer2.vcxproj -> C:\Users\user\Desktop\자바웹기반 HTML\c_practice\0611-pointer2\Debug\0611-pointer2.exe
