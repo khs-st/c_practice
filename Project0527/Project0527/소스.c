@@ -40,6 +40,26 @@ int main(void)
 		printf("\n");
 	}
 	
+
+
+
+
+
+
+	 //i가 행 j가 빈칸의 크기 j가 9면 빈칸이 9개를 차지하므로 숫자를 넣을 수 있는 공간이 1칸이다.//
+	int num = 2;
+	for (i = 0; i < 10; i++)
+	{
+		for (j = i; j < 9; j++)
+		{
+			printf("*");
+		}
+
+
+
+
+
+
 }
 
 int Prime(int num)
