@@ -1,0 +1,2 @@
+D:\KHS\c_practice\0611-pointer2\problem10\Debug\problem10.exe
+D:\KHS\c_practice\0611-pointer2\problem10\Debug\problem10.pdb

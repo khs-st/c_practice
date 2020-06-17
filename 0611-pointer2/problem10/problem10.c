@@ -41,7 +41,7 @@ add_matrix(int i, int j, int* px, int* py, int* p) {
 int main() {
 	int i = 0, j = 0;
 	int x[3][3] = {
-		{1,2,3},
+		{3,2,1},
 		{4,5,6},
 		{7,8,10}
 	};
